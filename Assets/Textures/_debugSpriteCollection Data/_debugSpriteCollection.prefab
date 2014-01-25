@@ -156,10 +156,8 @@ MonoBehaviour:
     flipped: 0
     complexGeometry: 0
     physicsEngine: 0
-    colliderType: 2
-    colliderVertices:
-    - {x: 0, y: 0, z: 0}
-    - {x: .5, y: .5, z: .100000001}
+    colliderType: 0
+    colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
@@ -167,7 +165,7 @@ MonoBehaviour:
     polygonCollider2D: []
     edgeCollider2D: []
     attachPoints: []
-  - name: player
+  - name: debug_visibile
     boundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 1, y: 1, z: 0}
@@ -190,7 +188,7 @@ MonoBehaviour:
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 91f430c8f33f5d345acb9611e6563007, type: 2}
     materialId: 0
-    sourceTextureGUID: 533f86a9a2774874dbb731346f31a279
+    sourceTextureGUID: 62935fe5b9ef5d946b53a740aea5efce
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -199,7 +197,48 @@ MonoBehaviour:
     flipped: 0
     complexGeometry: 0
     physicsEngine: 0
-    colliderType: 1
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: debug_spikes
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 1, z: 0}
+    texelSize: {x: .03125, y: .03125}
+    positions:
+    - {x: -.5, y: -.5, z: 0}
+    - {x: .5, y: -.5, z: 0}
+    - {x: -.5, y: .5, z: 0}
+    - {x: .5, y: .5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .578132808, y: .0156328119}
+    - {x: .828117192, y: .0156328119}
+    - {x: .578132808, y: .265617192}
+    - {x: .828117192, y: .265617192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 91f430c8f33f5d345acb9611e6563007, type: 2}
+    materialId: 0
+    sourceTextureGUID: eea5beb6290171e42be7352a410917f5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -219,14 +258,14 @@ MonoBehaviour:
   textureFilterMode: 1
   textureMipMaps: 0
   allowMultipleAtlases: 0
-  spriteCollectionGUID: a50194112aa4b9546b0ac04b8e27fea7
+  spriteCollectionGUID: e042f672e0ed3af47a44ac7f15bd831f
   spriteCollectionName: _debugSpriteCollection
   assetName: 
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 16
-  buildKey: 2143070361
-  dataGuid: 3559c16423c4bea4eb6affbd636130af
+  buildKey: 1341196317
+  dataGuid: f5d1c0a4566ad8c4c8ccbd4186d84b17
   managedSpriteCollection: 0
   hasPlatformData: 0
   spriteCollectionPlatforms: []

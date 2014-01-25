@@ -25,6 +25,10 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: a025aa5f9aa954e44880636b6e5cffae
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -693,23 +697,48 @@ MonoBehaviour:
     assetName: 
     version: 3
   - name: _debugSpriteCollection
-    spriteCollectionGUID: a50194112aa4b9546b0ac04b8e27fea7
-    spriteCollectionDataGUID: 3559c16423c4bea4eb6affbd636130af
+    spriteCollectionGUID: e042f672e0ed3af47a44ac7f15bd831f
+    spriteCollectionDataGUID: f5d1c0a4566ad8c4c8ccbd4186d84b17
     spriteNames:
     - debug_checker_a
     - debug_checker_b
     - debug_wall
-    - player
+    - debug_visibile
+    - debug_spikes
     spriteTextureGUIDs:
     - b5f548f44cabd254a8d61a81689e13a2
     - cd45c35f47f473840bdbf35cd460838a
     - d6d7021c1482cbe4f962b6b21a3d78cb
-    - 533f86a9a2774874dbb731346f31a279
+    - 62935fe5b9ef5d946b53a740aea5efce
+    - eea5beb6290171e42be7352a410917f5
     spriteTextureTimeStamps:
-    - 1390607770.93669
-    - 1390607770.94069
-    - 1390607770.94569
-    - 1390607770.9517
+    - 1390611767.51673
+    - 1390611778.04233
+    - 1390597978.10092
+    - 1390617594.22036
+    - 1390618478.14697
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PlayerSpriteCollection
+    spriteCollectionGUID: 49f65f355fb9537439b35b6f8f6c654c
+    spriteCollectionDataGUID: de2223c132767734181ee672b2e853a6
+    spriteNames:
+    - player_left
+    - player_down
+    - player_right
+    - player_up
+    spriteTextureGUIDs:
+    - 013b18da9bbd0b94ea6cc165da9ff620
+    - 2afab9fc9c72d124c8d9756afd46b775
+    - 73c3548682fc7ae41855e2930bf79320
+    - 81e779bbc058a574bb46c8b8398c2844
+    spriteTextureTimeStamps:
+    - 1390611961.43984
+    - 1390611969.03427
+    - 1390611951.80528
+    - 1390611920.28148
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
